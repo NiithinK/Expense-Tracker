@@ -24,7 +24,7 @@ export default function AddWallet({ wallet }) {
   return (
     <>
    
-     {/* <div className='expense'>
+     <div className='expense'>
        <div className='wallet'>
          <p>Wallet Balance: ${wallet}</p>
        </div>
@@ -52,9 +52,11 @@ export default function AddWallet({ wallet }) {
            </div>
          </div>
        )}
-     </div> */}
+     </div>
    
-<h1 style={{color:'white'}}>hi</h1>
+     <div>
+     <h1 style={{color:'white'}}>hi</h1>
+     </div>
     </>
   );
 }
