@@ -53,7 +53,7 @@ export default function AddWallet({ wallet }) {
          </div>
        )}
      </div>
-    <h1 style={{color:'white'}}> hello</h1>
+   
 
     </>
   );

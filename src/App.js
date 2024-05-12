@@ -10,8 +10,6 @@ function App() {
       <div className='App2'>
        <Home/>
       </div>
-
-      
     </>
   );
 }

@@ -28,7 +28,7 @@ export default function PieGraph({ expenses }) {
      <PieChart width={1000} height={1000}>
       <Pie
         data={chartData}
-        cx={250}
+        cx={350}
         cy={100}
         labelLine={false}
         label={({ name, value }) => `${name} ($${value.toFixed(2)})`}
