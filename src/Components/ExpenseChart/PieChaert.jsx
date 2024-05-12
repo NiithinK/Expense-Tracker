@@ -23,25 +23,26 @@ export default function PieGraph({ expenses }) {
   }));
 
   return (
-   <div>
-     <PieChart width={1000} height={1000}>
-      <Pie
-        data={chartData}
-        cx={250}
-        cy={100}
-        labelLine={false}
-        label={({ name, value }) => `${name} ($${value.toFixed(2)})`}
-        outerRadius={80}
-        fill="#8884d8"
-        dataKey="value"
-      >
-        {chartData.map((entry, index) => (
-          <Cell key={`cell-${index}`} fill={entry.fill} />
-        ))}
-      </Pie>
-      <Tooltip />
-    </PieChart>
-   </div>
+  //  <div>
+  //    <PieChart width={1000} height={1000}>
+  //     <Pie
+  //       data={chartData}
+  //       cx={250}
+  //       cy={100}
+  //       labelLine={false}
+  //       label={({ name, value }) => `${name} ($${value.toFixed(2)})`}
+  //       outerRadius={80}
+  //       fill="#8884d8"
+  //       dataKey="value"
+  //     >
+  //       {chartData.map((entry, index) => (
+  //         <Cell key={`cell-${index}`} fill={entry.fill} />
+  //       ))}
+  //     </Pie>
+  //     <Tooltip />
+  //   </PieChart>
+  //  </div>
+  <h1 style={{color:'white'}}> hello</h1>
   );
 }
 
