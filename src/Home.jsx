@@ -22,8 +22,8 @@ function Home() {
       <div className='App2'>
         <p style={{ fontSize: 'xx-large', color: 'white', paddingLeft: '30px' }}>Expense tracker</p>
         <div className='App'>
-          {/* <WalletBalance wallet={wallet} />
-          <AddExpenseForm addExpense={addExpense} />
+          <WalletBalance wallet={wallet} />
+          {/* <AddExpenseForm addExpense={addExpense} />
           <ExpenseChart expenses={expenses} /> */}
           <h1 style={{color:'white'}}> hello</h1>
         </div>
