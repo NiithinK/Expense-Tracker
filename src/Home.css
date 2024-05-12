@@ -1,0 +1,27 @@
+.App{
+    margin-top: 54px;
+     margin-left: 90px;
+     
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10rem;
+    width: 50%px;
+    height: 269px;
+    margin-right: 32px;
+    border-radius: 10px ;
+   border-radius: 10px ;
+   background: rgba(98, 98, 98, 1);
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+   }
+
+   .App3{
+    display: flex;
+    justify-content: space-evenly;
+   }
+
+body{
+    background: rgba(59, 59, 59, 1);
+
+}
